@@ -1,20 +1,18 @@
 body{
     display: flex;
     flex-direction: column;
-    border : 4px solid red;
     /* background-color: black; */
-    height: 1500px;
+    height: 1900px;
 }
 
 div{
-    border: 4px solid red;
+    border: 0px solid red;
     font: red;
-    flex : 7;
     
 }
 
 #header, #footer{
-    border: 4px solid greenyellow;
+    border: 0px solid greenyellow;
     flex: 1 1 auto;
     
     background-color: #1F2937;
@@ -55,19 +53,22 @@ div{
 .main-div{
     padding-left: 120px;
     padding-right: 120px;
+
+    flex : 10;
 }
 
 #div1{
     display: flex;
     background-color: #1F2937;
     color: white;
+    padding: 7%;
 }
 
-#secondary-div1-1{
+#div1-1{
     flex:1;
 }
 
-#secondary-div1-2{
+#div1-2{
     flex:1;
     display: flex;
     background-color: #ccc;
@@ -76,4 +77,168 @@ div{
     align-items: center;
     justify-content: center;
 }
+#div1-1-p1{
+    padding-right:300px ;
+    font-size: 48px;
+    color: #f9faf8;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    border : 0px solid red;
+}
+#div1-1-p2{
+    font-Size: 18px;
+    color: #e5e7eb;
+
+    border : 0px solid red;
+}
+#button1{
+    background-color: #3882f6;
+    color: white;
+    width: 105px; /* Set button width */
+    height: 45px; /* Set button height */
+    border: 0px solid red;
+    border-radius: 10%;  
+}
+
+
+#div2{
+    display: flex;
+    flex-direction: column;
+}
+#div2-p1{
+    display: flex;
+    flex: 1 5;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#div2-1{
+    flex: 10 0 ;
+    display: flex;
+}
+
+.div2-1{
+    flex : 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.div2-1-1{
+    flex: 4;
+    border: 4px solid #3882f6;
+    border-radius: 10%;
+    margin-left : 40px;
+    margin-right: 40px;
+}
+
+.div2-1-2{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+#div3{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#div3-1{
+    flex: 5;
+    display: flex;
+    align-items: end;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+
+
+}
+
+#div3-2{
+    flex : 1;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+}
+
+
+#div4{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+#div4-1{
+    flex: 1 1 auto;
+    height: 150px;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 5%;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+#div4-1-1{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#div4-1-2{
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#div4-1-1-1{
+    flex: 1;
+    display: flex;
+    align-items: end;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#div4-1-1-2{
+    flex: 1;
+    color: white;
+    font-size: 20px;
+    font-weight: 50;
+}
+
+#button2{
+    flex : 1 1 auto;
+    
+    width: 105px; /* Set button width */
+    height: 45px; /* Set button height */
+    color: white;
+    background-color: #3882f6;
+    border: 4px solid white;
+    border-radius: 10%;
+}
+
+
+
 
