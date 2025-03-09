@@ -28,8 +28,8 @@ div{
 }
 #header{
     display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 #header-logo{
@@ -47,6 +47,33 @@ div{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
+}
+
+
+
+.main-div{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+#div1{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+}
+
+#secondary-div1-1{
+    flex:1;
+}
+
+#secondary-div1-2{
+    flex:1;
+    display: flex;
+    background-color: #ccc;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
 }
 
